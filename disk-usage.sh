@@ -9,3 +9,5 @@ echo "entre the name"
 read s
 echo $s
 echo $s >test.txt
+date
+iostat
