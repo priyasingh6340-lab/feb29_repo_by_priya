@@ -11,3 +11,4 @@ echo $s
 echo $s >test.txt
 date
 iostat
+ps -azuxx |grep git
