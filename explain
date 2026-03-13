@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "enter username as input"
+read a
+useradd $a
+grep -l $a /etc/passwd
+usermod wheels $a
+echo $a
+date = date
+echo $a >> $adate
+echo "created user successfully in Linux $a"
+
